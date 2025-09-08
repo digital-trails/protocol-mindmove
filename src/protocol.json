@@ -115,74 +115,75 @@
           }
         ]
       }
-    ],
-    "devices": [
-      {
-        "type": "Oura",
-        "channel": "Api",
-        "path": "https://api.ouraring.com/v2/usercollection",
-        "androidsync": "deeplink://com.ouraring.oura",
-        "iossync": "deeplink://Oura://",
-        "endpoints": [
-          {
-            "path": "sleep",
-            "days": 1,
-            "writesdatum": true
-          },
-          {
-            "path": "workout",
-            "days": 1,
-            "writesdatum": true
-          },
-          {
-            "path": "daily_activity",
-            "days": 10,
-            "writesdatum": true,
-            "goals": [
-              {
-                "type": "percentile",
-                "show-loading": true,
-                "field": "active",
-                "days": 10,
-                "percentile": 0.6
+    }
+  ],
+  "devices": [
+    {
+      "type": "Oura",
+      "channel": "Api",
+      "path": "https://api.ouraring.com/v2/usercollection",
+      "androidsync": "deeplink://com.ouraring.oura",
+      "iossync": "deeplink://Oura://",
+      "endpoints": [
+        {
+          "path": "sleep",
+          "days": 1,
+          "writesdatum": true
+        },
+        {
+          "path": "workout",
+          "days": 1,
+          "writesdatum": true
+        },
+        {
+          "path": "daily_activity",
+          "days": 10,
+          "writesdatum": true,
+          "goals": [
+            {
+              "type": "percentile",
+              "show-loading": true,
+              "field": "active",
+              "days": 10,
+              "percentile": 0.6
+            }
+          ],
+          "triggers": [
+            {
+              "id": "trigger_2",
+              "type": "device",
+              "timewindowdays": 1,
+              "aggregation": "sum",
+              "condition": [
+                "non_wear_time",
+                ">",
+                "36000"
+              ],
+              "action": {
+                "type": "notification",
+                "title": "Tracker Alert!",
+                "message": "Hi! We’ve noticed your tracker hasn’t recorded much data over the past two days. Please try to wear it as much as possible—ideally all day. If it’s not working or you’re having trouble, let us know so we can help."
               }
-            ],
-            "triggers": [
-              {
-                "id": "trigger_2",
-                "type": "device",
-                "timewindowdays": 1,
-                "aggregation": "sum",
-                "condition": [
-                  "non_wear_time",
-                  ">",
-                  "36000"
-                ],
-                "action": {
-                  "type": "notification",
-                  "title": "Tracker Alert!",
-                  "message": "Hi! We’ve noticed your tracker hasn’t recorded much data over the past two days. Please try to wear it as much as possible—ideally all day. If it’s not working or you’re having trouble, let us know so we can help."
-                }
-              },
-              {
-                "id": "trigger_3",
-                "type": "device",
-                "timewindowdays": 1,
-                "aggregation": "sum",
-                "condition": [
-                  "steps",
-                  "<",
-                  "2000"
-                ],
-                "action": {
-                  "type": "notification",
-                  "title": "Tracker Alert!",
-                  "message": "Hi! Your step count is low, make sure you to walk and stay active."
-                }
+            },
+            {
+              "id": "trigger_3",
+              "type": "device",
+              "timewindowdays": 1,
+              "aggregation": "sum",
+              "condition": [
+                "steps",
+                "<",
+                "2000"
+              ],
+              "action": {
+                "type": "notification",
+                "title": "Tracker Alert!",
+                "message": "Hi! Your step count is low, make sure you to walk and stay active."
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
