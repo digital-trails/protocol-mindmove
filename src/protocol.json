@@ -78,6 +78,9 @@
       ]
     }
   },
+  "settings": {
+    "configs": "flow://flows/configs.json"
+  },
   "triggers": [
     {
       "id": "trigger_1",
