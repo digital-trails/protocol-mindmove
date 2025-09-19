@@ -1,18 +1,13 @@
 {
-  "home": {
+  "summary": {
+    "icon": "/assets/home_mindtrails.png",
     "title": "Mind in Motion",
+    "description": "Calm the mind. Move the body"
+  },
+  "home": {
     "element": {
       "type": "list",
       "elements": [
-        {
-          "type": "alert",
-          "title": "Mind in Motion",
-          "message": "Calm the mind. Move the body. Reclaim your recovery.",
-          "icon": {
-            "url": "/assets/logo3.png",
-            "tint": false
-          }
-        },
         {
           "type": "goals"
         },
