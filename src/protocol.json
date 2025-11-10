@@ -17,36 +17,36 @@
         {
           "type": "carousel",
           "actions": [
-              { "text": "Meditation Basics 1", "icon": {"url": "/assets/001-medicine.png", "tint": false}, "action": "https://my.headspace.com/player/16?authorId=1&contentId=1&contentType=COURSE&mode=meditate&startIndex=0", "backgroundcolor": "#1A206AFF","markcompletedonclick": true },
-              { "text": "Meditation Basics 2", "icon": {"url": "/assets/001-medicine.png", "tint": false}, "action": "https://my.headspace.com/player/16?authorId=1&contentId=1&contentType=COURSE&mode=meditate&startIndex=1", "backgroundcolor": "#1A206AFF","markcompletedonclick": true },
-              { "text": "Meditation Basics 3", "icon": {"url": "/assets/001-medicine.png", "tint": false}, "action": "https://my.headspace.com/player/16?authorId=1&contentId=1&contentType=COURSE&mode=meditate&startIndex=2", "backgroundcolor": "#1A206AFF","markcompletedonclick": true },
-              { "text": "Meditation Basics 4", "icon": {"url": "/assets/001-medicine.png", "tint": false}, "action": "https://my.headspace.com/player/16?authorId=1&contentId=1&contentType=COURSE&mode=meditate&startIndex=3", "backgroundcolor": "#1A206AFF","markcompletedonclick": true },
-              { "text": "Meditation Basics 5", "icon": {"url": "/assets/001-medicine.png", "tint": false}, "action": "https://my.headspace.com/player/16?authorId=1&contentId=1&contentType=COURSE&mode=meditate&startIndex=4", "backgroundcolor": "#1A206AFF","markcompletedonclick": true },
-              { "text": "Meditation Basics 6", "icon": {"url": "/assets/001-medicine.png", "tint": false}, "action": "https://my.headspace.com/player/16?authorId=1&contentId=1&contentType=COURSE&mode=meditate&startIndex=5", "backgroundcolor": "#1A206AFF","markcompletedonclick": true },
-              { "text": "Meditation Basics 7", "icon": {"url": "/assets/001-medicine.png", "tint": false}, "action": "https://my.headspace.com/player/16?authorId=1&contentId=1&contentType=COURSE&mode=meditate&startIndex=6", "backgroundcolor": "#1A206AFF","markcompletedonclick": true },
-              { "text": "Meditation Basics 8", "icon": {"url": "/assets/001-medicine.png", "tint": false}, "action": "https://my.headspace.com/player/16?authorId=1&contentId=1&contentType=COURSE&mode=meditate&startIndex=7", "backgroundcolor": "#1A206AFF","markcompletedonclick": true },
-              { "text": "Meditation Basics 9", "icon": {"url": "/assets/001-medicine.png", "tint": false}, "action": "https://my.headspace.com/player/16?authorId=1&contentId=1&contentType=COURSE&mode=meditate&startIndex=8", "backgroundcolor": "#1A206AFF","markcompletedonclick": true },
-              { "text": "Meditation Basics 10", "icon": {"url": "/assets/001-medicine.png", "tint": false}, "action": "https://my.headspace.com/player/16?authorId=1&contentId=1&contentType=COURSE&mode=meditate&startIndex=9", "backgroundcolor": "#1A206AFF","markcompletedonclick": true },
-              { "text": "Sports | Recovery 1", "icon": { "url": "/assets/020-person.png", "tint": false }, "action": "https://my.headspace.com/player/27?authorId=1&contentId=197&contentType=COURSE&mode=meditate&startIndex=0", "backgroundcolor": "#1A00E05A", "markcompletedonclick": true },
-              { "text": "Sports | Recovery 2", "icon": { "url": "/assets/020-person.png", "tint": false }, "action": "https://my.headspace.com/player/27?authorId=1&contentId=197&contentType=COURSE&mode=meditate&startIndex=1", "backgroundcolor": "#1A00E05A", "markcompletedonclick": true },
-              { "text": "Sports | Recovery 3", "icon": { "url": "/assets/020-person.png", "tint": false }, "action": "https://my.headspace.com/player/27?authorId=1&contentId=197&contentType=COURSE&mode=meditate&startIndex=2", "backgroundcolor": "#1A00E05A", "markcompletedonclick": true },
-              { "text": "Sports | Recovery 4", "icon": { "url": "/assets/020-person.png", "tint": false }, "action": "https://my.headspace.com/player/27?authorId=1&contentId=197&contentType=COURSE&mode=meditate&startIndex=3", "backgroundcolor": "#1A00E05A", "markcompletedonclick": true },
-              { "text": "Sports | Recovery 5", "icon": { "url": "/assets/020-person.png", "tint": false }, "action": "https://my.headspace.com/player/27?authorId=1&contentId=197&contentType=COURSE&mode=meditate&startIndex=4", "backgroundcolor": "#1A00E05A", "markcompletedonclick": true },
-              { "text": "Sports | Recovery 6", "icon": { "url": "/assets/020-person.png", "tint": false }, "action": "https://my.headspace.com/player/27?authorId=1&contentId=197&contentType=COURSE&mode=meditate&startIndex=5", "backgroundcolor": "#1A00E05A", "markcompletedonclick": true },
-              { "text": "Sports | Recovery 7", "icon": { "url": "/assets/020-person.png", "tint": false }, "action": "https://my.headspace.com/player/27?authorId=1&contentId=197&contentType=COURSE&mode=meditate&startIndex=6", "backgroundcolor": "#1A00E05A", "markcompletedonclick": true },
-              { "text": "Sports | Recovery 8", "icon": { "url": "/assets/020-person.png", "tint": false }, "action": "https://my.headspace.com/player/27?authorId=1&contentId=197&contentType=COURSE&mode=meditate&startIndex=7", "backgroundcolor": "#1A00E05A", "markcompletedonclick": true },
-              { "text": "Sports | Recovery 9", "icon": { "url": "/assets/020-person.png", "tint": false }, "action": "https://my.headspace.com/player/27?authorId=1&contentId=197&contentType=COURSE&mode=meditate&startIndex=8", "backgroundcolor": "#1A00E05A", "markcompletedonclick": true },
-              { "text": "Sports | Recovery 10", "icon": { "url": "/assets/020-person.png", "tint": false }, "action": "https://my.headspace.com/player/27?authorId=1&contentId=197&contentType=COURSE&mode=meditate&startIndex=9", "backgroundcolor": "#1A00E05A", "markcompletedonclick": true },
-              { "text": "Sports | Rehab 1", "icon": { "url": "/assets/030-yoga.png", "tint": false }, "action": "https://my.headspace.com/player/28?authorId=1&contentId=198&contentType=COURSE&mode=meditate&startIndex=0", "backgroundcolor": "#1A00C2FF", "markcompletedonclick": true },
-              { "text": "Sports | Rehab 2", "icon": { "url": "/assets/030-yoga.png", "tint": false }, "action": "https://my.headspace.com/player/28?authorId=1&contentId=198&contentType=COURSE&mode=meditate&startIndex=1", "backgroundcolor": "#1A00C2FF", "markcompletedonclick": true },
-              { "text": "Sports | Rehab 3", "icon": { "url": "/assets/030-yoga.png", "tint": false }, "action": "https://my.headspace.com/player/28?authorId=1&contentId=198&contentType=COURSE&mode=meditate&startIndex=2", "backgroundcolor": "#1A00C2FF", "markcompletedonclick": true },
-              { "text": "Sports | Rehab 4", "icon": { "url": "/assets/030-yoga.png", "tint": false }, "action": "https://my.headspace.com/player/28?authorId=1&contentId=198&contentType=COURSE&mode=meditate&startIndex=3", "backgroundcolor": "#1A00C2FF", "markcompletedonclick": true },
-              { "text": "Sports | Rehab 5", "icon": { "url": "/assets/030-yoga.png", "tint": false }, "action": "https://my.headspace.com/player/28?authorId=1&contentId=198&contentType=COURSE&mode=meditate&startIndex=4", "backgroundcolor": "#1A00C2FF", "markcompletedonclick": true },
-              { "text": "Sports | Rehab 6", "icon": { "url": "/assets/030-yoga.png", "tint": false }, "action": "https://my.headspace.com/player/28?authorId=1&contentId=198&contentType=COURSE&mode=meditate&startIndex=5", "backgroundcolor": "#1A00C2FF", "markcompletedonclick": true },
-              { "text": "Sports | Rehab 7", "icon": { "url": "/assets/030-yoga.png", "tint": false }, "action": "https://my.headspace.com/player/28?authorId=1&contentId=198&contentType=COURSE&mode=meditate&startIndex=6", "backgroundcolor": "#1A00C2FF", "markcompletedonclick": true },
-              { "text": "Sports | Rehab 8", "icon": { "url": "/assets/030-yoga.png", "tint": false }, "action": "https://my.headspace.com/player/28?authorId=1&contentId=198&contentType=COURSE&mode=meditate&startIndex=7", "backgroundcolor": "#1A00C2FF", "markcompletedonclick": true },
-              { "text": "Sports | Rehab 9", "icon": { "url": "/assets/030-yoga.png", "tint": false }, "action": "https://my.headspace.com/player/28?authorId=1&contentId=198&contentType=COURSE&mode=meditate&startIndex=8", "backgroundcolor": "#1A00C2FF", "markcompletedonclick": true },
-              { "text": "Sports | Rehab 10", "icon": { "url": "/assets/030-yoga.png", "tint": false }, "action": "https://my.headspace.com/player/28?authorId=1&contentId=198&contentType=COURSE&mode=meditate&startIndex=9", "backgroundcolor": "#1A00C2FF", "markcompletedonclick": true }
+            {
+              "text": "Meditation Basics",
+              "icon": {
+                "url": "/assets/001-medicine.png",
+                "tint": false
+              },
+              "action": "https://hdsp.co/share/681b905c676f43eaa24fb490",
+              "backgroundcolor": "#1A206AFF",
+              "markcompletedonclick": true
+            },
+            {
+              "text": "Sports|Recovery Course",
+              "icon": {
+                "url": "/assets/020-person.png",
+                "tint": false
+              },
+              "action": "https://hdsp.co/share/681baa3bb7ef4f17b820ccf6",
+              "backgroundcolor": "#1A00E05A",
+              "markcompletedonclick": true
+            },
+            {
+              "text": "Sports|Rehab Course",
+              "icon": {
+                "url": "/assets/030-yoga.png",
+                "tint": false
+              },
+              "action": "https://hdsp.co/share/6839e11d7419d4b1882761d7",
+              "backgroundcolor": "#1A00C2FF",
+              "markcompletedonclick": true
+            }
           ]
         },
         {
