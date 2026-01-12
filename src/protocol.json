@@ -171,6 +171,7 @@
           "writesdatum": true,
           "goals": [
             {
+              "id": "percentile_goal",
               "type": "percentile",
               "show-loading": true,
               "field": "active",
