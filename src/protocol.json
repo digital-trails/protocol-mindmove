@@ -59,7 +59,7 @@
                 "tint": false
               },
               "action": "https://acltear.info/best-results-acl-reconstruction/",
-              "backgroundcolor": "#5C7CFA",
+              "backgroundcolor": "#1A5C2FDA",
               "markcompleted": true
             },
             {
@@ -69,7 +69,7 @@
                 "tint": false
               },
               "action": "navpage://Contact",
-              "backgroundcolor": "#51CF66"
+              "backgroundcolor": "#1A00C2FF"
             }
           ]
         }
