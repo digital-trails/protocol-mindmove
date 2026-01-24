@@ -12,6 +12,12 @@
       "type": "list",
       "elements": [
         {
+          "type": "alert",
+          "title": "Mind Move",
+          "message": "Link movement and mental health",
+          "icon": "/assets/logo1.png"
+        },
+        {
           "type": "goals"
         },
         {
