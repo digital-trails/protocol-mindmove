@@ -34,7 +34,7 @@
               "markcompletedonclick": true
             },
             {
-              "text": "Sports|Recovery Course",
+              "text": "Sports|Recovery",
               "icon": {
                 "url": "/assets/020-person.png",
                 "tint": false
@@ -44,7 +44,7 @@
               "markcompletedonclick": true
             },
             {
-              "text": "Sports|Rehab Course",
+              "text": "Sports|Rehab",
               "icon": {
                 "url": "/assets/030-yoga.png",
                 "tint": false
