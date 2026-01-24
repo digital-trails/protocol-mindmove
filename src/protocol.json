@@ -22,6 +22,7 @@
         },
         {
           "type": "carousel",
+          "title": "Courses from headspace",
           "actions": [
             {
               "text": "Meditation Basics",
