@@ -154,74 +154,81 @@
       }
     }
   ],
-  "devices": [
-    {
+  "devices": {
+    "device_1": {
       "type": "Oura",
-      "channel": "Api",
-      "path": "https://api.ouraring.com/v2/usercollection",
-      "androidsync": "deeplink://com.ouraring.oura",
-      "iossync": "deeplink://Oura://",
-      "endpoints": [
-        {
-          "path": "sleep",
-          "days": 1,
-          "writesdatum": true
-        },
-        {
-          "path": "workout",
-          "days": 1,
-          "writesdatum": true
-        },
-        {
-          "path": "daily_activity",
-          "days": 10,
-          "writesdatum": true,
-          "goals": [
-            {
-              "id": "percentile_goal",
-              "type": "percentile",
-              "show-loading": true,
-              "field": "active",
-              "days": 10,
-              "percentile": 0.6
-            }
-          ],
-          "triggers": [
-            {
-              "id": "trigger_3",
-              "type": "device",
-              "timewindowdays": 1,
-              "aggregation": "sum",
-              "condition": [
-                "non_wear_time",
-                ">",
-                "36000"
-              ],
-              "action": {
-                "type": "notification",
-                "title": "Tracker Alert!",
-                "message": "Hi! We’ve noticed your tracker hasn’t recorded much data over the past two days. Please try to wear it as much as possible—ideally all day. If it’s not working or you’re having trouble, let us know so we can help."
-              }
-            },
-            {
-              "id": "trigger_4",
-              "type": "device",
-              "timewindowdays": 1,
-              "aggregation": "sum",
-              "condition": [
-                "steps",
-                "<",
-                "2000"
-              ],
-              "action": {
-                "type": "notification",
-                "title": "Tracker Alert!",
-                "message": "Hi! Your step count is low, make sure you to walk and stay active."
-              }
-            }
-          ]
-        }
+      "connect_title": "Login to Oura",
+      "connect_description": "This study requires Oura integration. We are about to send you to Oura to authenticate and then you will be redirected back to our app",
+      "android_sync": "deeplink://com.ouraring.oura",
+      "ios_sync": "deeplink://Oura://",
+      "webhook_data_types": [
+        "sleep",
+        "workout",
+        "daily_activity"
+      ],
+      "scopes": [
+        "daily",
+        "workout",
+        "sleep",
+        "ring_configuration"
+      ],
+      "jobs": [
+        "job_1",
+        "job_2"
       ]
     }
-  ]
+  },
+  "goals": {
+    "goal_1": {
+      "device_id": "device_1",
+      "data_type": "daily_activity",
+      "type": "percentile",
+      "field": "active",
+      "required_days": 10,
+      "percentile": 0.6,
+      "show_loading": true
+    }
+  },
+  "jobs": {
+    "job_1": {
+      "type": "device",
+      "service": "Oura",
+      "data_type": "daily_activity",
+      "days": 1,
+      "condition": [
+        "non_wear_time",
+        ">",
+        "36000"
+      ],
+      "notification_id": "notification_1"
+    },
+    "job_2": {
+      "type": "device",
+      "service": "Oura",
+      "data_type": "daily_activity",
+      "days": 1,
+      "condition": [
+        "steps",
+        "<",
+        "2000"
+      ],
+      "notification_id": "notification_2"
+    }
+  },
+  "notifications": {
+    "notification_1": {
+      "type": "remote",
+      "expiry": "1",
+      "title": "Tracker Alert!",
+      "message": "Hi! We’ve noticed your tracker hasn’t recorded much data over the past two days. Please try to wear it as much as possible—ideally all day. If it’s not working or you’re having trouble, let us know so we can help.",
+      "action": "navpage://Devices"
+    },
+    "notification_2": {
+      "type": "remote",
+      "expiry": "1",
+      "title": "Tracker Alert!",
+      "message": "Hi! Your step count is low, make sure you to walk and stay active.",
+      "action": "navpage://Devices"
+    }
+  }
 }
