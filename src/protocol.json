@@ -18,6 +18,13 @@
           "icon": "/assets/logo1.png"
         },
         {
+          "type": "survey",
+          "action": {
+            "text": "Surveys",
+            "action": "navmodal://Survey"
+          }
+        },
+        {
           "type": "devices",
           "summary": [
             {
