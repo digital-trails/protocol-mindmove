@@ -92,77 +92,40 @@
       ]
     }
   },
-  "settings": {
-    "configs": "flow://flows/configs.json"
-  },
-  "triggers": [
-    {
-      "id": "trigger_1",
+  "surveys": {
+    "morning_random": {
       "type": "random",
-      "days": 7,
+      "period": "00:10:00",
       "choose": 3,
-      "time": "${random_time,15:00}",
-      "action": {
-        "type": "list",
-        "listtype": "random",
-        "actions": [
-          {
-            "type": "notification",
-            "survey": true,
-            "path": "flow://flows/survey1",
-            "expiry": "18:00",
-            "title": "Survey Alert!",
-            "message": "It's time for your survey1 survey"
-          },
-          {
-            "type": "notification",
-            "survey": true,
-            "path": "flow://flows/survey2",
-            "expiry": "18:00",
-            "title": "Survey Alert!",
-            "message": "It's time for your survey2 survey"
-          },
-          {
-            "type": "notification",
-            "survey": true,
-            "path": "flow://flows/survey3",
-            "expiry": "18:00",
-            "title": "Survey Alert!",
-            "message": "It's time for your survey3 survey"
-          }
-        ]
-      }
+      "time": "08:00",
+      "expiry": "04:00",
+      "paths": [
+        "flow://flows/morning_pair1",
+        "flow://flows/morning_pair2",
+        "flow://flows/morning_pair3",
+        "flow://flows/morning_pair4",
+        "flow://flows/morning_pair5",
+        "flow://flows/morning_pair6",
+        "flow://flows/morning_pair7"
+      ]
     },
-    {
-      "id": "trigger_2",
-      "type": "Reminder",
-      "threshold": "2.00:00:00",
-      "action": {
-        "type": "list",
-        "listtype": "sequential",
-        "actions": [
-          {
-            "type": "notification",
-            "path": "https://hdsp.co/share/681b905c676f43eaa24fb490",
-            "title": "Reminder Alert!",
-            "message": "We noticed you haven’t completed Meditation Basics in the past couple of days. Please try to fit one in today—just click the mindfulness tile in the app. If you’re having trouble accessing it, let us know so we can help."
-          },
-          {
-            "type": "notification",
-            "path": "https://hdsp.co/share/681baa3bb7ef4f17b820ccf6",
-            "title": "Reminder Alert!",
-            "message": "We noticed you haven’t completed Sports|Recovery Course in the past couple of days. Please try to fit one in today—just click the mindfulness tile in the app. If you’re having trouble accessing it, let us know so we can help."
-          },
-          {
-            "type": "notification",
-            "path": "https://hdsp.co/share/6839e11d7419d4b1882761d7",
-            "title": "Reminder Alert!",
-            "message": "We noticed you haven’t completed Sports|Rehab Course in the past couple of days. Please try to fit one in today—just click the mindfulness tile in the app. If you’re having trouble accessing it, let us know so we can help."
-          }
-        ]
-      }
+    "evening_random": {
+      "type": "random",
+      "period": "00:10:00",
+      "choose": 3,
+      "time": "20:00",
+      "expiry": "04:00",
+      "paths": [
+        "flow://flows/evening_pair1",
+        "flow://flows/evening_pair2",
+        "flow://flows/evening_pair3",
+        "flow://flows/evening_pair4",
+        "flow://flows/evening_pair5",
+        "flow://flows/evening_pair6",
+        "flow://flows/evening_pair7"
+      ]
     }
-  ],
+  },
   "devices": {
     "device_1": {
       "type": "Oura",
