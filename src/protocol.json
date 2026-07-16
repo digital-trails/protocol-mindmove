@@ -102,9 +102,10 @@
   "surveys": {
     "morning_random": {
       "type": "random",
-      "period": "00:10:00",
-      "choose": 3,
-      "time": "08:00",
+      "period": "7",
+      "gap": "1",
+      "choose": 7,
+      "time":"08:00",
       "expiry": "04:00",
       "paths": [
         "flow://flows/morning_pair1",
@@ -118,9 +119,10 @@
     },
     "evening_random": {
       "type": "random",
-      "period": "00:10:00",
-      "choose": 3,
-      "time": "20:00",
+      "period": "7",
+      "gap": "1",
+      "choose": 7,
+      "time":"20:00",
       "expiry": "04:00",
       "paths": [
         "flow://flows/evening_pair1",
