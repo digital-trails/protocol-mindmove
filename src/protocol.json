@@ -46,7 +46,8 @@
                 "url": "/assets/001-medicine.png",
                 "tint": false
               },
-              "action": "flow://flows/Meditation Basics"
+              "action": "flow://flows/Meditation Basics",
+              "backgroundcolor": "#26FFA726"
             },
             {
               "text": "Sports|Recovery",
@@ -54,7 +55,8 @@
                 "url": "/assets/020-person.png",
                 "tint": false
               },
-              "action": "flow://flows/Sports Recovery"
+              "action": "flow://flows/Sports Recovery",
+              "backgroundcolor": "#2651CF66"
             },
             {
               "text": "Sports|Rehab",
@@ -62,12 +64,14 @@
                 "url": "/assets/030-yoga.png",
                 "tint": false
               },
-              "action": "flow://flows/Sports Rehab"
+              "action": "flow://flows/Sports Rehab",
+              "backgroundcolor": "#265C7CFA"
             }
           ]
         },
         {
           "type": "tiles",
+          "title": "Resources",
           "actions": [
             {
               "text": "More About ACL Recovery",
