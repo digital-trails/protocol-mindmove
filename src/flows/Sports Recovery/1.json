@@ -3,6 +3,7 @@
     "elements": [
         {
             "type": "WebList",
+            "variable_name": "sports_recovery",
             "items": [
                 {
                     "text": "Session 1",

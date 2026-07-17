@@ -3,6 +3,7 @@
     "elements": [
         {
             "type": "WebList",
+            "variable_name": "meditation_basics",
             "items": [
                 {
                     "text": "Session 1",
