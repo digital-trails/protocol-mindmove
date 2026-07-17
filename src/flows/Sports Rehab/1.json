@@ -1,0 +1,61 @@
+{
+    "header_text": "Sports Rehab",
+    "elements": [
+        {
+            "type": "WebList",
+            "items": [
+                {
+                    "text": "Session 1",
+                    "url": "https://my.headspace.com/player/28?authorId=1&contentId=198&contentType=COURSE&mode=meditate&startIndex=0",
+                    "complete_text": "Did you complete the session 1 of the sports rehab?"
+                },
+                {
+                    "text": "Session 2",
+                    "url": "https://my.headspace.com/player/28?authorId=1&contentId=198&contentType=COURSE&mode=meditate&startIndex=1",
+                    "complete_text": "Did you complete the session 2 of the sports rehab?"
+                },
+                {
+                    "text": "Session 3",
+                    "url": "https://my.headspace.com/player/28?authorId=1&contentId=198&contentType=COURSE&mode=meditate&startIndex=2",
+                    "complete_text": "Did you complete the session 3 of the sports rehab?"
+                },
+                {
+                    "text": "Session 4",
+                    "url": "https://my.headspace.com/player/28?authorId=1&contentId=198&contentType=COURSE&mode=meditate&startIndex=3",
+                    "complete_text": "Did you complete the session 4 of the sports rehab?"
+                },
+                {
+                    "text": "Session 5",
+                    "url": "https://my.headspace.com/player/28?authorId=1&contentId=198&contentType=COURSE&mode=meditate&startIndex=4",
+                    "complete_text": "Did you complete the session 5 of the sports rehab?"
+                },
+                {
+                    "text": "Session 6",
+                    "url": "https://my.headspace.com/player/28?authorId=1&contentId=198&contentType=COURSE&mode=meditate&startIndex=5",
+                    "complete_text": "Did you complete the session 6 of the sports rehab?"
+                },
+                {
+                    "text": "Session 7",
+                    "url": "https://my.headspace.com/player/28?authorId=1&contentId=198&contentType=COURSE&mode=meditate&startIndex=6",
+                    "complete_text": "Did you complete the session 7 of the sports rehab?"
+                },
+                {
+                    "text": "Session 8",
+                    "url": "https://my.headspace.com/player/28?authorId=1&contentId=198&contentType=COURSE&mode=meditate&startIndex=7",
+                    "complete_text": "Did you complete the session 8 of the sports rehab?"
+                },
+                {
+                    "text": "Session 9",
+                    "url": "https://my.headspace.com/player/28?authorId=1&contentId=198&contentType=COURSE&mode=meditate&startIndex=8",
+                    "complete_text": "Did you complete the session 9 of the sports rehab?"
+                },
+                {
+                    "text": "Session 10",
+                    "url": "https://my.headspace.com/player/28?authorId=1&contentId=198&contentType=COURSE&mode=meditate&startIndex=9",
+                    "complete_text": "Did you complete the session 10 of the sports rehab?"
+                }
+            ]
+        }
+    ],
+    "navigation_conditions": ["wait_for_complete", "wait_for_click"]
+}

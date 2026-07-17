@@ -46,8 +46,7 @@
                 "url": "/assets/001-medicine.png",
                 "tint": false
               },
-              "action": "flows://flows/Meditation Basics/1",
-              "backgroundcolor": "#FFA726"
+              "action": "flow://flows/Meditation Basics"
             },
             {
               "text": "Sports|Recovery",
@@ -55,8 +54,7 @@
                 "url": "/assets/020-person.png",
                 "tint": false
               },
-              "action": "https://hdsp.co/share/681baa3bb7ef4f17b820ccf6",
-              "backgroundcolor": "#51CF66"
+              "action": "flow://flows/Sports Recovery"
             },
             {
               "text": "Sports|Rehab",
@@ -64,8 +62,7 @@
                 "url": "/assets/030-yoga.png",
                 "tint": false
               },
-              "action": "https://hdsp.co/share/6839e11d7419d4b1882761d7",
-              "backgroundcolor": "#5C7CFA"
+              "action": "flow://flows/Sports Rehab"
             }
           ]
         },
@@ -105,13 +102,13 @@
       "time":"08:00",
       "expiry": "04:00",
       "paths": [
-        "flow://flows/morning_pair1",
-        "flow://flows/morning_pair2",
-        "flow://flows/morning_pair3",
-        "flow://flows/morning_pair4",
-        "flow://flows/morning_pair5",
-        "flow://flows/morning_pair6",
-        "flow://flows/morning_pair7"
+        "flow://flows/Morning Pair 1",
+        "flow://flows/Morning Pair 2",
+        "flow://flows/Morning Pair 3",
+        "flow://flows/Morning Pair 4",
+        "flow://flows/Morning Pair 5",
+        "flow://flows/Morning Pair 6",
+        "flow://flows/Morning Pair 7"
       ]
     },
     "evening_random": {
@@ -122,13 +119,13 @@
       "time":"20:00",
       "expiry": "04:00",
       "paths": [
-        "flow://flows/evening_pair1",
-        "flow://flows/evening_pair2",
-        "flow://flows/evening_pair3",
-        "flow://flows/evening_pair4",
-        "flow://flows/evening_pair5",
-        "flow://flows/evening_pair6",
-        "flow://flows/evening_pair7"
+        "flow://flows/Evening Pair 1",
+        "flow://flows/Evening Pair 2",
+        "flow://flows/Evening Pair 3",
+        "flow://flows/Evening Pair 4",
+        "flow://flows/Evening Pair 5",
+        "flow://flows/Evening Pair 6",
+        "flow://flows/Evening Pair 7"
       ]
     }
   },
