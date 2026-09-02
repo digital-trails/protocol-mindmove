@@ -1,6 +1,10 @@
 {
-    "header_text": "Morning — Pair 4: Activity motivation and follow-through",
+    "header_text": "Morning Survey",
     "elements": [
+        {
+            "type": "Text",
+            "text": "Activity motivation and follow-through"
+        },
         {
             "type": "Text",
             "text": "How motivated are you to be physically active today? (0% = not at all motivated, 100% = extremely motivated)"

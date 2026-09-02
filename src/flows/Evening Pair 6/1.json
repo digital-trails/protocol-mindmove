@@ -1,6 +1,10 @@
 {
-    "header_text": "Evening — Pair 6: Knee function",
+    "header_text": "Evening Survey",
     "elements": [
+        {
+            "type": "Text",
+            "text": "Knee function"
+        },
         {
             "type": "Text",
             "text": "How would you rate the overall function of your reconstructed knee today? (0% = could not function at all, 100% = functioned completely normally)"

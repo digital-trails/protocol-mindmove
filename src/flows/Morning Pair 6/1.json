@@ -1,6 +1,10 @@
 {
-    "header_text": "Morning — Pair 6: Knee function",
+    "header_text": "Morning Survey",
     "elements": [
+        {
+            "type": "Text",
+            "text": "Knee function"
+        },
         {
             "type": "Text",
             "text": "How would you rate the overall condition of your reconstructed knee this morning? (0% = very poor, 100% = completely normal)"

@@ -1,20 +1,12 @@
 {
-  "summary": {
-    "icon": {
-      "url": "/assets/logo3.png",
-      "tint": false
-    },
-    "title": "Mind in Motion",
-    "description": "Calm the mind. Move the body"
-  },
   "home": {
     "element": {
       "type": "list",
       "elements": [
         {
           "type": "alert",
-          "title": "Mind Move",
-          "message": "Link movement and mental health",
+          "title": "Mind in Motion",
+          "message": "Connecting mind and body",
           "icon": "/assets/logo1.png"
         },
         {
@@ -74,6 +66,15 @@
           "title": "Resources",
           "actions": [
             {
+              "text": "Introduction",
+              "icon": {
+                "url": "/assets/002-point.png",
+                "tint": false
+              },
+              "action": "flows://flows/Mind In Motion Introduction",
+              "backgroundcolor": "#1A00C2FF"
+            },
+            {
               "text": "More About ACL Recovery",
               "icon": {
                 "url": "/assets/025-medicine.png",
@@ -82,28 +83,24 @@
               "action": "https://acltear.info/best-results-acl-reconstruction/",
               "backgroundcolor": "#1A5C2FDA",
               "markcompleted": true
-            },
-            {
-              "text": "Contact",
-              "icon": {
-                "url": "/assets/support.png",
-                "tint": false
-              },
-              "action": "navpage://Contact",
-              "backgroundcolor": "#1A00C2FF"
             }
           ]
         }
       ]
     }
   },
+  "settings": {
+    "configs": "flow://flows/configs.json"
+  },
+  "start_flow": "flow://flows/Mind In Motion Introduction",
   "surveys": {
     "morning_random": {
       "type": "random",
       "period": "7",
       "gap": "1",
+      "name": "Morning Survey",
       "choose": 7,
-      "time":"08:00",
+      "time":"${global:random_time_morning,08:00}",
       "expiry": "04:00",
       "paths": [
         "flow://flows/Morning Pair 1",
@@ -120,7 +117,8 @@
       "period": "7",
       "gap": "1",
       "choose": 7,
-      "time":"20:00",
+      "name": "Evening Survey",
+      "time":"${global:random_time_evening,20:00}",
       "expiry": "04:00",
       "paths": [
         "flow://flows/Evening Pair 1",

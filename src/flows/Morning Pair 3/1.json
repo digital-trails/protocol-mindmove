@@ -1,6 +1,10 @@
 {
-    "header_text": "Morning — Pair 3: Anticipated vs. experienced pain",
+    "header_text": "Morning Survey",
     "elements": [
+        {
+            "type": "Text",
+            "text": "Anticipated vs. experienced pain"
+        },
         {
             "type": "Text",
             "text": "How much pain do you expect to experience in your reconstructed knee during today's activities? (0% = no pain expected, 100% = severe pain expected)"

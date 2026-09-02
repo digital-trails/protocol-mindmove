@@ -1,6 +1,10 @@
 {
-    "header_text": "Morning — Pair 5: Anticipated vs. experienced symptoms",
+    "header_text": "Morning Survey",
     "elements": [
+        {
+            "type": "Text",
+            "text": "Anticipated vs. experienced symptoms"
+        },
         {
             "type": "Text",
             "text": "How much do you expect your reconstructed knee symptoms to limit your physical activity today? (0% = no limitation expected, 100% = complete limitation expected)"

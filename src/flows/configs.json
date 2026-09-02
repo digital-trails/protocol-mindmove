@@ -1,15 +1,27 @@
 {
+    "header_text": "Personalize your survey notification times",
     "elements": [
         {
             "type": "Text",
-            "text": "Please choose the when you want to be notified."
+            "text": "Please choose the time you want to be notified for your morning surveys."
         },
         {
             "type": "Time", 
-            "default_time": "15:00",
-            "open": "12:00",
-            "close": "17:00",
-            "variable_name":"global:random_time"
+            "default_time": "08:00",
+            "open": "06:00",
+            "close": "10:00",
+            "variable_name":"global:random_time_morning"
+        },
+         {
+            "type": "Text",
+            "text": "Please choose the time you want to be notified for your evening surveys."
+        },
+        {
+            "type": "Time", 
+            "default_time": "20:00",
+            "open": "17:00",
+            "close": "24:00",
+            "variable_name":"global:random_time_evening"
         }
     ],
     "navigation_conditions": ["wait_for_complete", "wait_for_click"]

@@ -1,6 +1,10 @@
 {
-    "header_text": "Morning — Pair 7: Anxiety and mood",
+    "header_text": "Morning Survey",
     "elements": [
+        {
+            "type": "Text",
+            "text": "Anxiety and mood"
+        },
         {
             "type": "Text",
             "text": "How anxious are you about how your reconstructed knee will feel during today's activities? (0% = not at all anxious, 100% = extremely anxious)"

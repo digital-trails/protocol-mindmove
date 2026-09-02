@@ -1,6 +1,10 @@
 {
-    "header_text": "Morning — Pair 1: Fear of movement",
+    "header_text": "Morning Survey",
     "elements": [
+        {
+            "type": "Text",
+            "text": "Fear of movement"
+        },
         {
             "type": "Text",
             "text": "How fearful are you of re-injuring your reconstructed knee during today's activities? (0% = no fear at all, 100% = extreme fear)"

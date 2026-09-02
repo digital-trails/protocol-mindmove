@@ -1,6 +1,10 @@
 {
-    "header_text": "Evening — Pair 4: Activity motivation and follow-through",
+    "header_text": "Evening Survey",
     "elements": [
+        {
+            "type": "Text",
+            "text": "Activity motivation and follow-through"
+        },
         {
             "type": "Text",
             "text": "How satisfied are you with the amount of physical activity you completed today? (0% = not at all satisfied, 100% = completely satisfied)"
