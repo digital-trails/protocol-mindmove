@@ -71,7 +71,7 @@
                 "url": "/assets/002-point.png",
                 "tint": false
               },
-              "action": "flows://flows/Mind In Motion Introduction",
+              "action": "flow://flows/Mind In Motion Introduction",
               "backgroundcolor": "#1A00C2FF"
             },
             {
