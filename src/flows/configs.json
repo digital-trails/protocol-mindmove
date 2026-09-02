@@ -20,7 +20,7 @@
             "type": "Time", 
             "default_time": "20:00",
             "open": "17:00",
-            "close": "24:00",
+            "close": "23:59",
             "variable_name":"global:random_time_evening"
         }
     ],
