@@ -17,16 +17,9 @@
           }
         },
         {
-          "type": "devices",
-          "summary": [
-            {
-              "device_id": "device_1",
-              "text": "Oura Ring",
-              "icon": {
-                "url": "/assets/oura.png"
-              }
-            }
-          ]
+          "type": "oura",
+          "connection_id": "connection_1",
+          "goal_id": "goal_1"
         },
         {
           "type": "carousel",
@@ -131,11 +124,9 @@
       ]
     }
   },
-  "devices": {
-    "device_1": {
+  "connections": {
+    "connection_1": {
       "type": "Oura",
-      "connect_title": "Login to Oura",
-      "connect_description": "This study requires Oura integration. We are about to send you to Oura to authenticate and then you will be redirected back to our app",
       "android_sync": "deeplink://com.ouraring.oura",
       "ios_sync": "deeplink://Oura://",
       "webhook_data_types": [
@@ -148,19 +139,16 @@
         "workout",
         "sleep",
         "ring_configuration"
-      ],
-      "jobs": [
-        "job_1",
-        "job_2"
       ]
     }
   },
   "goals": {
     "goal_1": {
-      "device_id": "device_1",
+      "connection_id": "connection_1",
       "data_type": "daily_activity",
       "type": "percentile",
       "field": "active",
+      "name": "Active Minutes",
       "required_days": 10,
       "percentile": 0.6,
       "show_loading": true
@@ -168,7 +156,7 @@
   },
   "jobs": {
     "job_1": {
-      "type": "device",
+      "type": "connection",
       "service": "Oura",
       "data_type": "daily_activity",
       "days": 1,
@@ -180,7 +168,7 @@
       "notification_id": "notification_1"
     },
     "job_2": {
-      "type": "device",
+      "type": "connection",
       "service": "Oura",
       "data_type": "daily_activity",
       "days": 1,
